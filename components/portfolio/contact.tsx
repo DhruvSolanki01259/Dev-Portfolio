@@ -22,11 +22,23 @@ export function Contact() {
 
       {/* Socials */}
       <div className="space-y-3">
-        <h3 className="text-xs font-medium uppercase tracking-wider text-muted-foreground">Socials</h3>
+        <h3 className="text-xs font-medium uppercase tracking-wider text-muted-foreground">
+          Socials
+        </h3>
         <div className="flex flex-wrap gap-3">
           {profile.socials?.map((s) => (
-            <Button key={s.label} variant="secondary" asChild>
-              <Link href={s.href} target="_blank" rel="noopener noreferrer" aria-label={s.label}>
+            <Button
+              key={s.label}
+              variant="secondary"
+              asChild
+              className="hover:!bg-transparent hover:!text-[var(--foreground)]"
+            >
+              <Link
+                href={s.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={s.label}
+              >
                 {s.label}
               </Link>
             </Button>
@@ -36,17 +48,30 @@ export function Contact() {
 
       {/* Coding profiles / learning platforms */}
       <div className="mt-8 space-y-3">
-        <h3 className="text-xs font-medium uppercase tracking-wider text-muted-foreground">Coding Profiles</h3>
+        <h3 className="text-xs font-medium uppercase tracking-wider text-muted-foreground">
+          Coding Profiles
+        </h3>
         <div className="flex flex-wrap gap-3">
           {(profile as any).platforms?.map((p: { label: string; href: string }) => (
-            <Button key={p.label} variant="outline" asChild>
-              <Link href={p.href} target="_blank" rel="noopener noreferrer" aria-label={p.label}>
+            <Button
+              key={p.label}
+              variant="outline"
+              asChild
+              className="hover:!bg-transparent hover:!text-[var(--foreground)]"
+            >
+              <Link
+                href={p.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={p.label}
+              >
                 {p.label}
               </Link>
             </Button>
           ))}
         </div>
       </div>
+
     </Section>
   )
 }
