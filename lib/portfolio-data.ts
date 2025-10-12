@@ -94,7 +94,7 @@ export const profile = {
       description: "Visual tool showcasing how different sorting algorithms work step by step.",
       tags: ["React", "Javascript", "Algorithms"],
       links: {
-        live: "https://v0-sorting-visualizer-ud.vercel.app/",
+        live: "https://ds-sorting-visualizer-ds.vercel.app/",
         repo: "https://github.com/DhruvSolanki01259/Sorting-Visualizer",
       },
       imageAlt: "Sorting Visualizer",
