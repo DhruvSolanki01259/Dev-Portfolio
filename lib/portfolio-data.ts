@@ -90,17 +90,6 @@ export const profile = {
     //   image: "/ecommerce-product-grid.png",
     // },
     {
-      title: "Sorting Visualizer",
-      description: "Visual tool showcasing how different sorting algorithms work step by step.",
-      tags: ["React", "Javascript", "Algorithms"],
-      links: {
-        live: "https://ds-sorting-visualizer-ds.vercel.app/",
-        repo: "https://github.com/DhruvSolanki01259/Sorting-Visualizer",
-      },
-      imageAlt: "Sorting Visualizer",
-      image: "/sorting-visualizer.png",
-    },
-    {
       title: "Auth Application",
       description: "Demonstrating a secure user authentication flow with email verification and password reset functionality.",
       tags: ["React", "Node", "Express", "MongoDB", "Resend"],
@@ -110,6 +99,17 @@ export const profile = {
       },
       imageAlt: "Auth Application",
       image: "/auth-application.png",
+    },
+    {
+      title: "Sorting Visualizer",
+      description: "Visual tool showcasing how different sorting algorithms work step by step.",
+      tags: ["React", "Javascript", "Algorithms"],
+      links: {
+        live: "https://ds-sorting-visualizer-ds.vercel.app/",
+        repo: "https://github.com/DhruvSolanki01259/Sorting-Visualizer",
+      },
+      imageAlt: "Sorting Visualizer",
+      image: "/sorting-visualizer.png",
     },
   ],
 } as const
