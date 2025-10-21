@@ -56,39 +56,39 @@ export const profile = {
     "DSA",
   ],
   projects: [
-    {
-      title: "DevNotes",
-      description: "Full‑stack notes app with auth, tag search, and offline sync using React, Node, and MongoDB.",
-      tags: ["React", "Node", "MongoDB", "TypeScript"],
-      links: {
-        live: "#",
-        repo: "https://github.com/DhruvSolanki01259/devnotes",
-      },
-      imageAlt: "DevNotes app screenshot",
-      image: "/notes-app-dashboard.jpg",
-    },
-    {
-      title: "TaskFlow",
-      description: "Kanban task manager with drag‑and‑drop, JWT auth, and REST API built on Express.",
-      tags: ["React", "Express", "JWT", "Tailwind"],
-      links: {
-        live: "#",
-        repo: "https://github.com/DhruvSolanki01259/taskflow",
-      },
-      imageAlt: "TaskFlow board screenshot",
-      image: "/kanban-task-board.jpg",
-    },
-    {
-      title: "ShopLite",
-      description: "Minimal e‑commerce prototype with product listing, cart, and checkout flow.",
-      tags: ["Next.js", "MongoDB", "Stripe (test)"],
-      links: {
-        live: "#",
-        repo: "https://github.com/DhruvSolanki01259/shoplite",
-      },
-      imageAlt: "ShopLite product grid",
-      image: "/ecommerce-product-grid.png",
-    },
+    // {
+    //   title: "DevNotes",
+    //   description: "Full‑stack notes app with auth, tag search, and offline sync using React, Node, and MongoDB.",
+    //   tags: ["React", "Node", "MongoDB", "TypeScript"],
+    //   links: {
+    //     live: "#",
+    //     repo: "https://github.com/DhruvSolanki01259/devnotes",
+    //   },
+    //   imageAlt: "DevNotes app screenshot",
+    //   image: "/notes-app-dashboard.jpg",
+    // },
+    // {
+    //   title: "TaskFlow",
+    //   description: "Kanban task manager with drag‑and‑drop, JWT auth, and REST API built on Express.",
+    //   tags: ["React", "Express", "JWT", "Tailwind"],
+    //   links: {
+    //     live: "#",
+    //     repo: "https://github.com/DhruvSolanki01259/taskflow",
+    //   },
+    //   imageAlt: "TaskFlow board screenshot",
+    //   image: "/kanban-task-board.jpg",
+    // },
+    // {
+    //   title: "ShopLite",
+    //   description: "Minimal e‑commerce prototype with product listing, cart, and checkout flow.",
+    //   tags: ["Next.js", "MongoDB", "Stripe (test)"],
+    //   links: {
+    //     live: "#",
+    //     repo: "https://github.com/DhruvSolanki01259/shoplite",
+    //   },
+    //   imageAlt: "ShopLite product grid",
+    //   image: "/ecommerce-product-grid.png",
+    // },
     {
       title: "Sorting Visualizer",
       description: "Visual tool showcasing how different sorting algorithms work step by step.",
