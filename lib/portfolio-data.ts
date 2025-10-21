@@ -103,13 +103,13 @@ export const profile = {
     {
       title: "Auth Application",
       description: "Demonstrating a secure user authentication flow with email verification and password reset functionality.",
-      tags: ["React", "Node", "Express", "MongoDB"],
+      tags: ["React", "Node", "Express", "MongoDB", "Resend"],
       links: {
-        live: "",
+        live: "https://auth-application-ds.vercel.app/",
         repo: "https://github.com/DhruvSolanki01259/Auth-Application",
       },
       imageAlt: "Auth Application",
-      image: "",
+      image: "/auth-application.png",
     },
   ],
 } as const
